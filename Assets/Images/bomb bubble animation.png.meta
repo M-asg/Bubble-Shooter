@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 2876c1296059d7c4dbf91e577f256b5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2411168700550814889
+    second: bomb bubble animation_0
+  - first:
+      213: -1211523530513250024
+    second: bomb bubble animation_1
+  - first:
+      213: -2374841732034519983
+    second: bomb bubble animation_2
+  - first:
+      213: -1636719800047946857
+    second: bomb bubble animation_3
+  - first:
+      213: 7956388544565798080
+    second: bomb bubble animation_4
+  - first:
+      213: 84648568828204122
+    second: bomb bubble animation_5
+  - first:
+      213: -8560812186619494428
+    second: bomb bubble animation_6
+  - first:
+      213: -3446063944140494425
+    second: bomb bubble animation_7
+  - first:
+      213: 62235236729971063
+    second: bomb bubble animation_8
+  - first:
+      213: -8148818814255944307
+    second: bomb bubble animation_9
+  - first:
+      213: -96556575147028283
+    second: bomb bubble animation_10
+  - first:
+      213: -4540297888881658296
+    second: bomb bubble animation_11
+  - first:
+      213: 4301295408115737094
+    second: bomb bubble animation_12
+  - first:
+      213: 6955690853255289139
+    second: bomb bubble animation_13
+  - first:
+      213: -8205878058885016721
+    second: bomb bubble animation_14
+  - first:
+      213: 4134093136289213087
+    second: bomb bubble animation_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb bubble animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3018.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753e02e77dec98ed0800000000000000
+      internalID: -2411168700550814889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_1
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3018.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8190bb694cdcf2fe0800000000000000
+      internalID: -1211523530513250024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_2
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 3018.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c1f44f60eda0fd0800000000000000
+      internalID: -2374841732034519983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_3
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 3018.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933b4973043949e0800000000000000
+      internalID: -1636719800047946857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2012.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4e4ddf935ca6e60800000000000000
+      internalID: 7956388544565798080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2012.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5410c3cc6bbc2100800000000000000
+      internalID: 84648568828204122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_6
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 2012.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efb5b36ca2e13980800000000000000
+      internalID: -8560812186619494428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_7
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 2012.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a96930d91f1d20d0800000000000000
+      internalID: -3446063944140494425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1006.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7716dc93e9a1dd000800000000000000
+      internalID: 62235236729971063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_9
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1006.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d2145767499ee80800000000000000
+      internalID: -8148818814255944307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_10
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1006.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c012a57e46f8aef0800000000000000
+      internalID: -96556575147028283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_11
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 1006.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b0c6202f9df0c0800000000000000
+      internalID: -4540297888881658296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e1ca626541bb30800000000000000
+      internalID: 4301295408115737094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_13
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 0.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33917bb6af3978060800000000000000
+      internalID: 6955690853255289139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_14
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 0.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f639cfdc16dde1e80800000000000000
+      internalID: -8205878058885016721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb bubble animation_15
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 0.75
+        width: 1006.25
+        height: 1006.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a26e8ddcf3f5930800000000000000
+      internalID: 4134093136289213087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

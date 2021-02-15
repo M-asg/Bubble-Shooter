@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 9e1c5c14d65c0dd4da79e49475d7fb2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3000423945795220220
+    second: red bubble blow effect 2_0
+  - first:
+      213: -4642469833961221215
+    second: red bubble blow effect 2_1
+  - first:
+      213: -6220894991951030587
+    second: red bubble blow effect 2_2
+  - first:
+      213: -2776216948531642322
+    second: red bubble blow effect 2_3
+  - first:
+      213: -4218286281879582728
+    second: red bubble blow effect 2_4
+  - first:
+      213: 3367752770972527109
+    second: red bubble blow effect 2_5
+  - first:
+      213: -2410864382035351178
+    second: red bubble blow effect 2_6
+  - first:
+      213: 6408798794853244452
+    second: red bubble blow effect 2_7
+  - first:
+      213: 8416287380638100384
+    second: red bubble blow effect 2_8
+  - first:
+      213: -7135262041359149649
+    second: red bubble blow effect 2_9
+  - first:
+      213: -1037556188548025079
+    second: red bubble blow effect 2_10
+  - first:
+      213: -8018346245746875132
+    second: red bubble blow effect 2_11
+  - first:
+      213: -8227217922507037900
+    second: red bubble blow effect 2_12
+  - first:
+      213: 115678856304911285
+    second: red bubble blow effect 2_13
+  - first:
+      213: 3784153529926339164
+    second: red bubble blow effect 2_14
+  - first:
+      213: -7866822817445028604
+    second: red bubble blow effect 2_15
+  - first:
+      213: 6515936501208220092
+    second: red bubble blow effect 2_16
+  - first:
+      213: -2604002243925826971
+    second: red bubble blow effect 2_17
+  - first:
+      213: 3651729073281877286
+    second: red bubble blow effect 2_18
+  - first:
+      213: 6944052791633508119
+    second: red bubble blow effect 2_19
+  - first:
+      213: 6661024028218201919
+    second: red bubble blow effect 2_20
+  - first:
+      213: -7852728929644347328
+    second: red bubble blow effect 2_21
+  - first:
+      213: 8582052284037280830
+    second: red bubble blow effect 2_22
+  - first:
+      213: 1649926117388521949
+    second: red bubble blow effect 2_23
+  - first:
+      213: -4183700521563708988
+    second: red bubble blow effect 2_24
+  - first:
+      213: 7604417552007648644
+    second: red bubble blow effect 2_25
+  - first:
+      213: -2487010884875030663
+    second: red bubble blow effect 2_26
+  - first:
+      213: -7712581817250146478
+    second: red bubble blow effect 2_27
+  - first:
+      213: -790028192151646656
+    second: red bubble blow effect 2_28
+  - first:
+      213: 286675311719545140
+    second: red bubble blow effect 2_29
+  - first:
+      213: 5173458297055215270
+    second: red bubble blow effect 2_30
+  - first:
+      213: 2905152353875349075
+    second: red bubble blow effect 2_31
+  - first:
+      213: 471994292417117432
+    second: red bubble blow effect 2_32
+  - first:
+      213: 8260640747272372129
+    second: red bubble blow effect 2_33
+  - first:
+      213: -2886978756791188645
+    second: red bubble blow effect 2_34
+  - first:
+      213: -507263409541862683
+    second: red bubble blow effect 2_35
+  - first:
+      213: 3568508113476437916
+    second: red bubble blow effect 2_36
+  - first:
+      213: 7348912312943592286
+    second: red bubble blow effect 2_37
+  - first:
+      213: 7632806497885285000
+    second: red bubble blow effect 2_38
+  - first:
+      213: 2637175101112953412
+    second: red bubble blow effect 2_39
+  - first:
+      213: 6351060678079433972
+    second: red bubble blow effect 2_40
+  - first:
+      213: 3949595854737095522
+    second: red bubble blow effect 2_41
+  - first:
+      213: 6378531537699566500
+    second: red bubble blow effect 2_42
+  - first:
+      213: 5206504703721733815
+    second: red bubble blow effect 2_43
+  - first:
+      213: 8732667147616477513
+    second: red bubble blow effect 2_44
+  - first:
+      213: 4802948379535150000
+    second: red bubble blow effect 2_45
+  - first:
+      213: 7589429354917221916
+    second: red bubble blow effect 2_46
+  - first:
+      213: 4945114639850829496
+    second: red bubble blow effect 2_47
+  - first:
+      213: 4092564916689489145
+    second: red bubble blow effect 2_48
+  - first:
+      213: -2387778054329108735
+    second: red bubble blow effect 2_49
+  - first:
+      213: -8469139900013962273
+    second: red bubble blow effect 2_50
+  - first:
+      213: 2318536112883830188
+    second: red bubble blow effect 2_51
+  - first:
+      213: -6115948540243719838
+    second: red bubble blow effect 2_52
+  - first:
+      213: -3362982377855392114
+    second: red bubble blow effect 2_53
+  - first:
+      213: -2819744918191611635
+    second: red bubble blow effect 2_54
+  - first:
+      213: 3247800034924939381
+    second: red bubble blow effect 2_55
+  - first:
+      213: -1349327641013630184
+    second: red bubble blow effect 2_56
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red bubble blow effect 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dcc47715a5c56d0800000000000000
+      internalID: -3000423945795220220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3564a6842a29fb0800000000000000
+      internalID: -4642469833961221215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c690cbe6f0faa9a0800000000000000
+      internalID: -6220894991951030587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e204a53f465e879d0800000000000000
+      internalID: -2776216948531642322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f70aafd9f2a575c0800000000000000
+      internalID: -4218286281879582728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aa7255d49acbe20800000000000000
+      internalID: 3367752770972527109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679242b2e93ea8ed0800000000000000
+      internalID: -2410864382035351178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42edd247c80a0f850800000000000000
+      internalID: 6408798794853244452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab698208c8acc470800000000000000
+      internalID: 8416287380638100384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa595754af47afc90800000000000000
+      internalID: -7135262041359149649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905361bc42cd991f0800000000000000
+      internalID: -1037556188548025079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405ab20929c19b090800000000000000
+      internalID: -8018346245746875132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433ad3f93ec03dd80800000000000000
+      internalID: -8227217922507037900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3e3129e49fa9100800000000000000
+      internalID: 115678856304911285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5accce0693048430800000000000000
+      internalID: 3784153529926339164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d5047e35e63d290800000000000000
+      internalID: -7866822817445028604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1848599b14d6a50800000000000000
+      internalID: 6515936501208220092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5622b7871c9bcdbd0800000000000000
+      internalID: -2604002243925826971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625cee49e3c8da230800000000000000
+      internalID: 3651729073281877286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red bubble blow effect 2_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ffda093b3e5060800000000000000
+      internalID: 6944052791633508119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

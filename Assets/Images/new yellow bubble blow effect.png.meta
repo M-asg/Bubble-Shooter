@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 1cebb5d9d479a1f4bab40dd6f6458b2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3927276375545397513
+    second: new yellow bubble blow effect_0
+  - first:
+      213: -737762448069214915
+    second: new yellow bubble blow effect_1
+  - first:
+      213: 2693067380555804497
+    second: new yellow bubble blow effect_2
+  - first:
+      213: -8988003833607428670
+    second: new yellow bubble blow effect_3
+  - first:
+      213: -173386811032239090
+    second: new yellow bubble blow effect_4
+  - first:
+      213: 6115571223797646612
+    second: new yellow bubble blow effect_5
+  - first:
+      213: 4108847762657423883
+    second: new yellow bubble blow effect_6
+  - first:
+      213: -8317409674590577017
+    second: new yellow bubble blow effect_7
+  - first:
+      213: -7053161886893507662
+    second: new yellow bubble blow effect_8
+  - first:
+      213: 6256290082416363475
+    second: new yellow bubble blow effect_9
+  - first:
+      213: 8419724239774978723
+    second: new yellow bubble blow effect_10
+  - first:
+      213: -7075618702504218684
+    second: new yellow bubble blow effect_11
+  - first:
+      213: 8673885837324977759
+    second: new yellow bubble blow effect_12
+  - first:
+      213: 3035474041083510936
+    second: new yellow bubble blow effect_13
+  - first:
+      213: -6174733872805180135
+    second: new yellow bubble blow effect_14
+  - first:
+      213: 1011921232778071539
+    second: new yellow bubble blow effect_15
+  - first:
+      213: 4772007575226709798
+    second: new yellow bubble blow effect_16
+  - first:
+      213: -4697105158668764141
+    second: new yellow bubble blow effect_17
+  - first:
+      213: 9059899990526715323
+    second: new yellow bubble blow effect_18
+  - first:
+      213: 1246653425507308359
+    second: new yellow bubble blow effect_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901ca235e0d708630800000000000000
+      internalID: 3927276375545397513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d363a56f0f2c5f0800000000000000
+      internalID: -737762448069214915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f683e9382bf5520800000000000000
+      internalID: 2693067380555804497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5eaf14222344380800000000000000
+      internalID: -8988003833607428670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e048faf2d91089df0800000000000000
+      internalID: -173386811032239090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154f0950afded450800000000000000
+      internalID: 6115571223797646612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02ba51454f850930800000000000000
+      internalID: 4108847762657423883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e91aee7ff929c80800000000000000
+      internalID: -8317409674590577017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb736412a22e1e90800000000000000
+      internalID: -7053161886893507662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70a36ceaec2d650800000000000000
+      internalID: 6256290082416363475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a29882269ed8d470800000000000000
+      internalID: 8419724239774978723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf202f374a5ecd90800000000000000
+      internalID: -7075618702504218684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560c0c7635df5870800000000000000
+      internalID: 8673885837324977759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890c3b7ce8b202a20800000000000000
+      internalID: 3035474041083510936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d00e00240fe4aa0800000000000000
+      internalID: -6174733872805180135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8964fff01b0e00800000000000000
+      internalID: 1011921232778071539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277cd24b93993240800000000000000
+      internalID: 4772007575226709798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb4e89eb780deb0800000000000000
+      internalID: -4697105158668764141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5e8eb3a0b3bbd70800000000000000
+      internalID: 9059899990526715323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new yellow bubble blow effect_19
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74313697fa00d4110800000000000000
+      internalID: 1246653425507308359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

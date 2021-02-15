@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 97c1222dce0cff3489b5ab930f5d7c81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3980270503261820676
+    second: green bubble 2_0
+  - first:
+      213: 5313875757453592728
+    second: green bubble 2_1
+  - first:
+      213: 7573551387469738839
+    second: green bubble 2_2
+  - first:
+      213: 6061460536584400455
+    second: green bubble 2_3
+  - first:
+      213: 7099471274149364144
+    second: green bubble 2_4
+  - first:
+      213: 6265484516436196595
+    second: green bubble 2_5
+  - first:
+      213: -5691305075739569287
+    second: green bubble 2_6
+  - first:
+      213: 9100020706592748989
+    second: green bubble 2_7
+  - first:
+      213: -192809857499870508
+    second: green bubble 2_8
+  - first:
+      213: -954043194874454025
+    second: green bubble 2_9
+  - first:
+      213: 1615159328094144597
+    second: green bubble 2_10
+  - first:
+      213: 923098112449977101
+    second: green bubble 2_11
+  - first:
+      213: -2384477643792785929
+    second: green bubble 2_12
+  - first:
+      213: 8897153733658953928
+    second: green bubble 2_13
+  - first:
+      213: -5738211239533739245
+    second: green bubble 2_14
+  - first:
+      213: -3423912332017897364
+    second: green bubble 2_15
+  - first:
+      213: 5166494811264759548
+    second: green bubble 2_16
+  - first:
+      213: -907058624191290408
+    second: green bubble 2_17
+  - first:
+      213: -4852549812295114832
+    second: green bubble 2_18
+  - first:
+      213: 6448698363231952125
+    second: green bubble 2_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green bubble 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf82d1fc01d33c8c0800000000000000
+      internalID: -3980270503261820676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898c497e8ddaeb940800000000000000
+      internalID: 5313875757453592728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753fc4a4cd8aa1960800000000000000
+      internalID: 7573551387469738839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e69273e32ae1450800000000000000
+      internalID: 6061460536584400455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b143cc5283668260800000000000000
+      internalID: 7099471274149364144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcb3e3c8f873f650800000000000000
+      internalID: 6265484516436196595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735a2cff2c6401b0800000000000000
+      internalID: -5691305075739569287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f8216e94c94e70800000000000000
+      internalID: 9100020706592748989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dac686c470035df0800000000000000
+      internalID: -192809857499870508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 150.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff112dd4ce82c2f0800000000000000
+      internalID: -954043194874454025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558c5b6f9d23a6610800000000000000
+      internalID: 1615159328094144597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b1a6da7d08fcc00800000000000000
+      internalID: 923098112449977101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fddeda6732a8eed0800000000000000
+      internalID: -2384477643792785929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c848ce7e2a097b70800000000000000
+      internalID: 8897153733658953928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313007da747cd50b0800000000000000
+      internalID: -5738211239533739245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c607efbefd1db70d0800000000000000
+      internalID: -3423912332017897364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b55758a313b740800000000000000
+      internalID: 5166494811264759548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3af92bcfa7963f0800000000000000
+      internalID: -907058624191290408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd247d7a748acb0800000000000000
+      internalID: -4852549812295114832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green bubble 2_19
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0.5
+        width: 150.1
+        height: 150.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc5514aef06e7950800000000000000
+      internalID: 6448698363231952125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
