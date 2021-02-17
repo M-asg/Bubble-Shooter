@@ -44,11 +44,11 @@ public class SuperPower : MonoBehaviour, IMoveableAndHideable, ISpawnable
         {
             if (Vector2.Distance(finalPosition, transform.position) <= 4)
             {
-                transform.position = finalPosition;
                 GetComponent<CapsuleCollider2D>().size = collisionSize;
                 rigidbody2d.velocity = Vector2.zero;
                 rigidbody2d.bodyType = RigidbodyType2D.Kinematic;
                 rigidbody2d.useFullKinematicContacts = true;
+                transform.position = finalPosition;
                 Physics2D.IgnoreLayerCollision(10, 9, false);
                 Destroy(this);
             }

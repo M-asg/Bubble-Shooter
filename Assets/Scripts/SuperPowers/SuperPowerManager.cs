@@ -7,6 +7,8 @@ public class SuperPowerManager : MonoBehaviour
     //config
     [SerializeField] SuperPower fireBubble = null;
     [SerializeField] SuperPower thunderBubble = null;
+    [SerializeField] SuperPower rainbowBubble = null;
+
 
 
     //cache
@@ -20,6 +22,11 @@ public class SuperPowerManager : MonoBehaviour
     public void SetFireBubble()
     {
         bubbleSpawner.SelectSuperBubble(fireBubble);
+    }
+
+    public void SetRainbowBubble()
+    {
+        bubbleSpawner.SelectSuperBubble(rainbowBubble);
     }
 
     public void SetTunderBubble()

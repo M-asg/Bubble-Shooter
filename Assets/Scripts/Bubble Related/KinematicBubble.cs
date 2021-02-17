@@ -26,6 +26,7 @@ public class KinematicBubble : MonoBehaviour
     bool objIsAboutToBlow = false;
     bool destroyWhenMyTypeDestroyed = false;
     // bool isAnchor = true;
+    // bool objIsAboutToDrop = false;
     bool droped = false;
     bool alive = true;
 
@@ -125,13 +126,15 @@ public class KinematicBubble : MonoBehaviour
     public void CountNumbersOfMyColliderAndDestroyIfNeeded()
     {
         int myColliderTypeCount = 0;
+
+        // Debug.Log("Called" + gameObject.name);      
+        
         myCollider2D.enabled = false;
         List<KinematicBubble> bubblesNearMe = new List<KinematicBubble>();
         for (int i = 0; i < 6; i++)
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, rayDirections[i] , 0.6f);
-            // && hit.collider.gameObject.GetComponent<KinematicBubble>()
-            if (hit.collider != null && hit.collider.CompareTag(gameObject.tag))
+            if (hit.collider != null && (hit.collider.CompareTag(gameObject.tag) || hit.collider.CompareTag("Rainbow Bubble")))
             {
                 if (!bubblesNearMe.Contains(hit.collider.GetComponent<KinematicBubble>()))
                 {
@@ -300,6 +303,7 @@ public class KinematicBubble : MonoBehaviour
                 kinematicBubble.GetDestroyWhenMyTypeDestroyed())
             {
                 StartCoroutine(DestroyBubbleWhenMyTypeDestroyed());
+                kinematicBubbleManager.SetTimerAndCheckForDropAndRemoveFromList(this);
             }
             else if (myCollider2D.enabled == true && kinematicBubble.IsObjAlive() == false && alive)
             {

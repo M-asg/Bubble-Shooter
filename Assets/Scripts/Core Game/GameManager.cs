@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         timePassed += Time.deltaTime;
-        //if (kinematicBubbleManager.RdyToShoot() && timePassed >= 0.55f)
+
+        //if (kinematicBubbleManager.RdyToShoot() && bubbleSpawner.RdyToAction() && && timePassed >= 0.55f)
         //{
         //    if (Input.touchCount > 0)
         //    {
@@ -40,8 +41,7 @@ public class GameManager : MonoBehaviour
         //        }
         //    }
         //}
-        //&& timePassed >= 0.55f
-        if (bubbleSpawner.RdyToAction() && kinematicBubbleManager.RdyToShoot() )
+        if (bubbleSpawner.RdyToAction() && kinematicBubbleManager.RdyToShoot() && timePassed >= 0.55f)
         {
             AttempToDrawAndPlacePrePlacement();
             if (Input.GetKeyDown(KeyCode.Space))

@@ -172,7 +172,8 @@ public class BubbleSpawner : MonoBehaviour
     }
     private float StandardCoefficient(Vector2 shootDirection)
     {
-        float radiance = Mathf.Sqrt(Mathf.Pow(shootDirection.x, 2) + Mathf.Pow(shootDirection.y, 2));
+        //float radiance = Mathf.Sqrt(Mathf.Pow(shootDirection.x, 2) + Mathf.Pow(shootDirection.y, 2));
+        float radiance = shootDirection.magnitude; 
         return 1 / radiance;
     }
     Vector2 GetTouchDistanceFromGivenObject(Vector2 touchPositionInPixel, Vector2 originPos)

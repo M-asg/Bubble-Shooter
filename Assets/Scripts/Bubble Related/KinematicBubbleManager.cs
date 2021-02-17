@@ -328,6 +328,15 @@ public class KinematicBubbleManager : MonoBehaviour
         checkForDrop = true;
     }
 
+    public void SetTimerAndCheckForDropAndRemoveFromList(KinematicBubble checkForDropBubble)
+    {
+        if (checkforDropList.Contains(checkForDropBubble))
+        {
+            checkforDropList.Remove(checkForDropBubble);
+            timePassedForstartCheckingForDrop = 0;
+            checkForDrop = true;
+        }
+    }
 
     public int GetRemainingBubbleCount()
     {
