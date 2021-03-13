@@ -328,7 +328,7 @@ public class KinematicBubble : MonoBehaviour
     private void SpawnTextAndUpdateSlider()
     {
         SliderController sliderController = FindObjectOfType<SliderController>();
-        sliderController.SetAmount(kinematicBubbleManager.GetAmount());
+        //sliderController.SetAmount(kinematicBubbleManager.GetAmount());
 
         var canvas = Instantiate(textCanvas, transform.position, Quaternion.identity);
         TextMeshPro text = canvas.GetComponentInChildren<TextMeshPro>();

@@ -12,6 +12,7 @@ TagManager:
   - Green Bubble
   - SuperPower
   - Rainbow Bubble
+  - PlaceHolder
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Bubble
   - Shooting Bubble
   - None Collision
-  - 
+  - MapGenerator
   - 
   - 
   - 

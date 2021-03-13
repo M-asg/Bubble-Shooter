@@ -30,6 +30,19 @@ public class KinematicBubbleManager : MonoBehaviour
 
     bool checkForDrop;
     float timePassedForstartCheckingForDrop = 0;
+    [HideInInspector]
+    public bool gameStart = false;
+
+
+    private void Awake()
+    {
+        gameStart = true;
+        GameObject[] PlaceHolders = GameObject.FindGameObjectsWithTag("PlaceHolder");
+        foreach (var placeholder in PlaceHolders)
+        {
+            DestroyImmediate(placeholder);
+        }
+    }
 
 
     private void Start()
@@ -279,7 +292,7 @@ public class KinematicBubbleManager : MonoBehaviour
         {
             //Debug.Log("in while");
             transform.position = Vector2.MoveTowards(transform.position , finalPosition, MoveSpeed);
-            yield return new WaitForSeconds(Time.deltaTime);
+            yield return new WaitForSeconds(0.01f);
         }
         rdyToShoot = true;
     }
