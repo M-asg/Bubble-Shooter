@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     {
         drawAim = line.GetComponent<DrawAimAndPrePlacement>();
         kinematicBubbleManager = FindObjectOfType<KinematicBubbleManager>();
+        bubbleSpawner.Initialize(drawAim);
     }
 
 

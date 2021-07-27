@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SuperPower : MonoBehaviour, IMoveableAndHideable, ISpawnable 
+public class SuperPower : MonoBehaviour, IMoveableAndHideable, ISpawnable
 {
     //config
     [SerializeField] float speed = 0;
     [SerializeField] Vector2 collisionSize = Vector2.zero;
+    [SerializeField] private Material aimMaterial;
 
     //cache
     Rigidbody2D rigidbody2d;
@@ -71,18 +72,25 @@ public class SuperPower : MonoBehaviour, IMoveableAndHideable, ISpawnable
         SuperPower moveableObj = Instantiate(this.gameObject, position, Quaternion.identity).GetComponent<SuperPower>();
         return moveableObj;
     }
-    public void ChangePosition(Vector2 finalPosition, Vector2 centerPoint,bool isSelected)
-    {
 
+    public void ChangePosition(Vector2 finalPosition, Vector2 centerPoint, bool isSelected)
+    {
     }
 
     public void Hide(bool shouldHide)
     {
-        if(this != null)
+        if (this != null)
         {
             this.gameObject.SetActive(shouldHide);
         }
     }
+
+    public Material GetAimMaterial()
+    {
+        return aimMaterial;
+    }
+
+    // ReSharper restore Unity.ExpensiveCode
 
     public bool GetObjIsMoving()
     {
@@ -104,5 +112,3 @@ public class SuperPower : MonoBehaviour, IMoveableAndHideable, ISpawnable
         throw new System.NotImplementedException();
     }
 }
-
-

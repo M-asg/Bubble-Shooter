@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
+public class ShootingBubble : MonoBehaviour, IMoveableAndHideable, ISpawnable
 {
-
-
     //config
     [SerializeField] ShootingBubbleConfigs ShootingBubbleConfigs = null;
     [SerializeField] Canvas textCanvas = null;
@@ -15,11 +11,13 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
 
     //Cached
     Rigidbody2D rigidbody2d;
+
     TrailRenderer myTrailRenderer = null;
-   // Animator myAnimator = null;
+
+    // Animator myAnimator = null;
     Vector2 centerPoint = Vector2.zero;
     Vector2 shootingPosition = Vector2.zero;
-    
+
 
     //state
     bool rotateAround = false;
@@ -50,6 +48,7 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
             kinematicBubble.CountNumbersOfMyColliderAndDestroyIfNeeded();
         }
     }
+
     private void FixedUpdate()
     {
         if (finalPosition != Vector2.zero)
@@ -62,12 +61,13 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
                 ChangeToKinematicBubble();
             }
         }
+
         if (rotateAround)
         {
-            if (Vector2.Distance((Vector2)transform.position, shootingPosition) >= 0.3f)
+            if (Vector2.Distance((Vector2) transform.position, shootingPosition) >= 0.3f)
             {
                 transform.RotateAround(centerPoint, new Vector3(0, 0, 1), rotationSpeed * Time.deltaTime);
-                transform.Rotate(new Vector3(0, 0, 1) , -rotationSpeed * Time.deltaTime);   
+                transform.Rotate(new Vector3(0, 0, 1), -rotationSpeed * Time.deltaTime);
             }
             else
             {
@@ -76,31 +76,36 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
             }
         }
     }
+
     public float GetBubbleSpeed()
     {
         return ShootingBubbleConfigs.GetBubbleSpeed();
     }
+
     public Rigidbody2D GetBubbleRigidBody()
     {
         return GetComponent<Rigidbody2D>();
     }
+
     public Collider2D GetBubbleCollider()
     {
         return GetComponent<Collider2D>();
     }
+
     public void SetFinalPosition(Vector2 finalPosition)
     {
         this.finalPosition = finalPosition;
     }
+
     private void ChangeToKinematicBubble()
     {
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         KinematicBubble kinematicBubble = gameObject.AddComponent(typeof(KinematicBubble)) as KinematicBubble;
         kinematicBubble.SetTextCanvas(textCanvas);
-        
+
 
         Destroy(myTrailRenderer);
-       // myAnimator.SetBool("BubbleBlow", true);
+        // myAnimator.SetBool("BubbleBlow", true);
 
 
         rigidbody2d.gravityScale = 1;
@@ -108,7 +113,8 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
         kinematicBubble.CountNumbersOfMyColliderAndDestroyIfNeeded();
         Destroy(this);
     }
-    public void Move(Vector2 direction , Vector2 finalPosition)
+
+    public void Move(Vector2 direction, Vector2 finalPosition)
     {
         transform.parent = FindObjectOfType<KinematicBubbleManager>().transform;
         this.finalPosition = finalPosition;
@@ -118,16 +124,20 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
         GetComponent<CapsuleCollider2D>().size = new Vector2(1.45f, 1.45f);
         rigidbody2d.velocity = direction * GetBubbleSpeed();
     }
+
     protected float DistanceBetween(Vector2 fristDir, Vector2 SecoundDir)
     {
         return Mathf.Sqrt(Mathf.Pow((fristDir.x - SecoundDir.x), 2) + Mathf.Pow((fristDir.y - SecoundDir.y), 2));
     }
+
     public IMoveableAndHideable SpawnAtPoint(Vector2 position)
     {
-        ShootingBubble moveableObj = Instantiate(this.gameObject, position, Quaternion.identity).GetComponent<ShootingBubble>();
+        ShootingBubble moveableObj =
+            Instantiate(this.gameObject, position, Quaternion.identity).GetComponent<ShootingBubble>();
         return moveableObj;
     }
-    public void ChangePosition(Vector2 shootingPos , Vector2 centerPoint, bool isSelected)
+
+    public void ChangePosition(Vector2 shootingPos, Vector2 centerPoint, bool isSelected)
     {
         rotateAround = true;
         this.isSelected = isSelected;
@@ -139,6 +149,7 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
         {
             rotationSpeed = 300f;
         }
+
         shootingPosition = shootingPos;
         this.centerPoint = centerPoint;
     }
@@ -149,6 +160,11 @@ public class ShootingBubble : MonoBehaviour , IMoveableAndHideable , ISpawnable
         {
             this.gameObject.SetActive(!shouldHide);
         }
+    }
+
+    public Material GetAimMaterial()
+    {
+        return ShootingBubbleConfigs.AimMaterial;
     }
 
     public void DestroyMoveableObj()

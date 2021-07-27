@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a3ca0a572654844b9db79aa8a79385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootingBubbleConfigs: {fileID: 11400000, guid: f07dd98dc32185d4b88b291d34e65983,
+  ShootingBubbleConfigs: {fileID: 11400000, guid: fdd456f8e242b57419f1543f441f8084,
     type: 2}
   textCanvas: {fileID: 7172932116161990209, guid: 168eebb000cc8c84f90c984ea8ec6eaa,
     type: 3}

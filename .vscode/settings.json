@@ -1,4 +1,4 @@
-﻿{
+{
     "files.exclude":
     {
         "**/.DS_Store":true,
@@ -10,7 +10,6 @@
         "**/*.suo":true,
         "**/*.user":true,
         "**/*.userprefs":true,
-        "**/*.unityproj":true,
         "**/*.dll":true,
         "**/*.exe":true,
         "**/*.pdf":true,
@@ -23,7 +22,6 @@
         "**/*.jpeg":true,
         "**/*.png":true,
         "**/*.psd":true,
-        "**/*.tga":true,
         "**/*.tif":true,
         "**/*.tiff":true,
         "**/*.3ds":true,
@@ -51,6 +49,12 @@
         "Obj/":true,
         "ProjectSettings/":true,
         "temp/":true,
-        "Temp/":true
+        "Temp/":true,
+        "**/*.*.meta": true,
+        "**/*.unityproj": true,
+        "**/*.tga": true,
+        "**/Library": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true
     }
 }

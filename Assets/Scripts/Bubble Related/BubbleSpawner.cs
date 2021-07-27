@@ -10,49 +10,71 @@ public class BubbleSpawner : MonoBehaviour
     [SerializeField] ShootingBubble[] shootingBubbles = null;
     Vector2 unSelectedMoveableObjPos;
     Vector2 selectedMoveableObjPos;
-    IMoveableAndHideable selectedMoveableObj;
+
+    private IMoveableAndHideable SelectedMovableObj
+    {
+        get => _selectedMovableObj;
+        set
+        {
+            _selectedMovableObj = value;
+            _aimDrawer.SetLineRendererMaterial(_selectedMovableObj.GetAimMaterial());
+        }
+    }
+
+
     IMoveableAndHideable unSelectedMoveableObj;
     IMoveableAndHideable superBubble;
 
     //cache
     [SerializeField] KinematicBubbleManager kinematicBubbleManager = null;
     string lastSelectedTag;
-
+    private DrawAimAndPrePlacement _aimDrawer;
 
     //state
     bool shootingSuperBubble = false;
+    [SerializeField] private IMoveableAndHideable _selectedMovableObj;
 
     private void Start()
     {
-        selectedMoveableObjPos = new Vector2(transform.position.x , transform.position.y + 1.3f);
-        unSelectedMoveableObjPos = new Vector2(transform.position.x + 1.3f , transform.position.y);
+        selectedMoveableObjPos = new Vector2(transform.position.x, transform.position.y + 1.3f);
+        unSelectedMoveableObjPos = new Vector2(transform.position.x + 1.3f, transform.position.y);
 
 
         SetMoveableObjAfterShoot(1);
         SetMoveableObjAfterShoot(2);
     }
 
+    public void Initialize(DrawAimAndPrePlacement drawer)
+    {
+        _aimDrawer = drawer;
+    }
+
     public Vector2 GetselectedMoveableObjPos()
     {
         return selectedMoveableObjPos;
     }
+
     private void SetAndInstantietMoveableObj(ISpawnable spawnable, int ID)
     {
-        switch (ID) 
+        switch (ID)
         {
-            case 1: selectedMoveableObj = spawnable.SpawnAtPoint(selectedMoveableObjPos);
+            case 1:
+                SelectedMovableObj = spawnable.SpawnAtPoint(selectedMoveableObjPos);
                 break;
-            case 2: unSelectedMoveableObj = spawnable.SpawnAtPoint(unSelectedMoveableObjPos);
+            case 2:
+                unSelectedMoveableObj = spawnable.SpawnAtPoint(unSelectedMoveableObjPos);
                 break;
         }
     }
+
     public void SetFinalPositionSpawner(Vector2 finalPosition)
     {
         this.finalPosition = finalPosition;
     }
+
     public void ShootBubble(Vector2 direction)
     {
-        Vector2 shootDirection = GetTouchDistanceFromGivenObject(direction , transform.position);
+        Vector2 shootDirection = GetTouchDistanceFromGivenObject(direction, transform.position);
         shootDirection *= StandardCoefficient(shootDirection);
 
         if (shootingSuperBubble)
@@ -60,7 +82,7 @@ public class BubbleSpawner : MonoBehaviour
             //Debug.Log("shoot super power");
             superBubble.Move(shootDirection, finalPosition);
             shootingSuperBubble = false;
-            selectedMoveableObj.DestroyMoveableObj();
+            SelectedMovableObj.DestroyMoveableObj();
             unSelectedMoveableObj.DestroyMoveableObj();
             StartCoroutine(SetMoveableObj(1));
             StartCoroutine(SetMoveableObj(2));
@@ -68,13 +90,12 @@ public class BubbleSpawner : MonoBehaviour
         }
         else
         {
-            selectedMoveableObj.Move(shootDirection, finalPosition);
+            SelectedMovableObj.Move(shootDirection, finalPosition);
             // swap
-            selectedMoveableObj = unSelectedMoveableObj;
-            selectedMoveableObj.ChangePosition(selectedMoveableObjPos, transform.position , false);
+            SelectedMovableObj = unSelectedMoveableObj;
+            SelectedMovableObj.ChangePosition(selectedMoveableObjPos, transform.position, false);
             StartCoroutine(SetMoveableObj(2));
         }
-
     }
 
     public bool GetShootingSuperBubble()
@@ -90,8 +111,9 @@ public class BubbleSpawner : MonoBehaviour
             {
                 this.superBubble.Hide(false);
             }
-           // Debug.Log("called");
-            selectedMoveableObj.Hide(true);
+
+            // Debug.Log("called");
+            SelectedMovableObj.Hide(true);
             unSelectedMoveableObj.Hide(true);
             shootingSuperBubble = true;
             this.superBubble = superBubble.SpawnAtPoint(selectedMoveableObjPos);
@@ -101,15 +123,14 @@ public class BubbleSpawner : MonoBehaviour
 
     public void SwapBubble()
     {
-        selectedMoveableObj.ChangePosition(unSelectedMoveableObjPos, transform.position , true);
-        unSelectedMoveableObj.ChangePosition(selectedMoveableObjPos, transform.position , false);
+        SelectedMovableObj.ChangePosition(unSelectedMoveableObjPos, transform.position, true);
+        unSelectedMoveableObj.ChangePosition(selectedMoveableObjPos, transform.position, false);
 
         IMoveableAndHideable temp = null;
-        temp = selectedMoveableObj;
-        selectedMoveableObj = unSelectedMoveableObj;
+        temp = SelectedMovableObj;
+        SelectedMovableObj = unSelectedMoveableObj;
         unSelectedMoveableObj = temp;
         lastSelectedTag = unSelectedMoveableObj.GetTag();
-
     }
 
     public void UnSelecctSuperBubble()
@@ -118,7 +139,8 @@ public class BubbleSpawner : MonoBehaviour
         {
             this.superBubble.Hide(true);
         }
-        selectedMoveableObj.Hide(false);
+
+        SelectedMovableObj.Hide(false);
         unSelectedMoveableObj.Hide(false);
         shootingSuperBubble = false;
         superBubble.DestroyMoveableObj();
@@ -133,8 +155,9 @@ public class BubbleSpawner : MonoBehaviour
 
     public bool RdyToAction()
     {
-        return selectedMoveableObj.RdyToShoot() && unSelectedMoveableObj.RdyToShoot();
+        return SelectedMovableObj.RdyToShoot() && unSelectedMoveableObj.RdyToShoot();
     }
+
     private void SetMoveableObjAfterShoot(int ID)
     {
         List<string> bubbleTags = kinematicBubbleManager.GetBubbleTypesThatLeft();
@@ -162,7 +185,7 @@ public class BubbleSpawner : MonoBehaviour
         string selectedBubbleTag = uniqTags[random];
         lastSelectedTag = selectedBubbleTag;
 
-        foreach(ShootingBubble shootingBubble in shootingBubbles)
+        foreach (ShootingBubble shootingBubble in shootingBubbles)
         {
             if (shootingBubble.CompareTag(selectedBubbleTag))
             {
@@ -170,24 +193,26 @@ public class BubbleSpawner : MonoBehaviour
             }
         }
     }
+
     private float StandardCoefficient(Vector2 shootDirection)
     {
         //float radiance = Mathf.Sqrt(Mathf.Pow(shootDirection.x, 2) + Mathf.Pow(shootDirection.y, 2));
-        float radiance = shootDirection.magnitude; 
+        float radiance = shootDirection.magnitude;
         return 1 / radiance;
     }
+
     Vector2 GetTouchDistanceFromGivenObject(Vector2 touchPositionInPixel, Vector2 originPos)
     {
         Vector2 touchDistanceFromThisObject = new Vector2(
             GetTouchPositionInUnity(touchPositionInPixel).x - originPos.x,
             GetTouchPositionInUnity(touchPositionInPixel).y - originPos.y
-            );
+        );
         return touchDistanceFromThisObject;
     }
+
     Vector2 GetTouchPositionInUnity(Vector2 touchPositionInPixel)
     {
         Vector2 touchPositionInUnity = Camera.main.ScreenToWorldPoint(touchPositionInPixel);
         return touchPositionInUnity;
     }
-
 }

@@ -9,7 +9,7 @@ public interface IMoveableAndHideable
     void ChangePosition(Vector2 finalPosition , Vector2 centerPoint , bool isSelected);
 
     void Hide(bool shouldHide);
-
+    Material GetAimMaterial();    
     bool RdyToShoot();
 
     string GetTag();

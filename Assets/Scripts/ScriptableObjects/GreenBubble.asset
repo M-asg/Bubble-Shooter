@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2d7c6e66e7c14b41b5a30b1b6f9180c, type: 3}
-  m_Name: Shooting Bubble Configs
+  m_Name: GreenBubble
   m_EditorClassIdentifier: 
   bubbleSpeed: 40
+  aimMaterial: {fileID: 2100000, guid: de4fa137b54d6214485117ffd699e671, type: 2}

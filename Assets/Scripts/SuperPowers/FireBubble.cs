@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,12 +10,10 @@ public class FireBubble : MonoBehaviour
     SuperPower superPower = null;
 
 
-
     private void Awake()
     {
         myAnimator = GetComponent<Animator>();
         superPower = GetComponent<SuperPower>();
-
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -26,15 +25,11 @@ public class FireBubble : MonoBehaviour
             myAnimator.SetBool(fireBubbleBlowBoolName,true);
             gameObject.layer = 11;
         }
-        // should chagne to corotine
+        // should change to coroutine
         // maybe handle in animation event
     }
 
-    public void DestroyItSelf()
-    {
-        Destroy(gameObject);
-    }
-
+    
 
     private void FixedUpdate()
     {
